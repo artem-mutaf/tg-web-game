@@ -10,6 +10,9 @@ body {
 }
 
 .button1{
-  font-size: 15;
-  background-color: black;
+  display: flex;
+  font-size: 25;
+  background-color: aqua;
+  justify-content: center;
+  position: absolute;
 }

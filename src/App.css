@@ -11,8 +11,14 @@ body {
 
 .button1{
   display: flex;
-  font-size: 25;
-  background-color: aqua;
   justify-content: center;
-  position: absolute;
+  font-weight: bold;
+  align-items: center;
+  margin-left: 200px;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  background-color: #fffa8d;
+  
+  
 }

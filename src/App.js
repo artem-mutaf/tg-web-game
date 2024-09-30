@@ -9,18 +9,26 @@ const tg = window.Telegram.WebApp
 
 function App() {
 
+
+  
+
   useEffect( ()=>{
     tg.ready();
   }, [])
-
-  const onClose =()=>{
-    tg.close();
+  var elem = 0;
+  const click =()=>{
+    
+    elem++;
+    document.getElementById('Line').innerHTML= elem;
   }
 
   return (
     <div className="App">
-      work
-      <button className="button1" onClick={onClose}>Закрыть</button>
+      
+      <button className="button1" onClick={click}>Tap</button>
+      <div className="cislo" id='Line'></div>
+
+      
     </div>
   );
 }

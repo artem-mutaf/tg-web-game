@@ -12,13 +12,21 @@ body {
 .button1{
   display: flex;
   justify-content: center;
-  font-weight: bold;
   align-items: center;
-  margin-left: 200px;
-  border-radius: 10px;
-  width: 70px;
-  height: 30px;
+  margin: auto;
+  margin-top: 300px;
+  font-weight: bold;
+  border-radius: 100px;
+  width: 160px;
+  height: 160px;
   background-color: #fffa8d;
-  
-  
+}
+.cislo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 120px;
+  font-weight: bold;
 }

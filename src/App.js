@@ -25,7 +25,8 @@ function App() {
   return (
     <div className="App">
       
-      <button className="button1" onClick={click}>Tap</button>
+      <button className="button1" onClick={click}>
+      </button>
       <div className="cislo" id='Line'></div>
 
       

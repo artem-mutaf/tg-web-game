@@ -5,7 +5,7 @@
 }
 
 body {
-  background: var(--tg-theme-bg-color);
+  background-color: #fffdd7;
   color: var(--tg-theme-text-color);
 }
 
@@ -17,9 +17,12 @@ body {
   margin-top: 300px;
   font-weight: bold;
   border-radius: 100px;
-  width: 160px;
-  height: 160px;
-  background-color: #fffa8d;
+  padding: 50px 10px;
+  width: 300px;
+  height: 300px;
+  background-image: url(D:\turtleicon.jpg);
+  padding: 10px;
+  
 }
 .cislo{
   display: flex;
@@ -29,4 +32,8 @@ body {
   margin-top: 30px;
   font-size: 120px;
   font-weight: bold;
+}
+.turtle{
+  width: 128px;
+  height: 128px;
 }
